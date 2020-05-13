@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>com.jdr.manage</groupId>
-    <artifactId>WebStack-JDR-Nav</artifactId>
+    <artifactId>webstack-jdr-nav</artifactId>
     <version>1.0</version>
 
     <name>WebStack-JDR-Nav</name>
