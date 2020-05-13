@@ -108,6 +108,19 @@
         href = $(this).attr("href");
         pos = $(href).position().top - 30;
     });
+
+    function openUrl(url) {
+        var strRegex = "(jpg|png|jpeg|gif|webp)$"; //用于验证图片扩展名的正则表达式
+        var re= new RegExp(strRegex);
+        var spit = url.split('.');
+        if (re.test(spit[spit.length-1].toLowerCase())){
+            if(null != url && url != ""){
+                popWinD.showWin("600","590","扫描图片",url);
+            }
+        } else{
+            window.open(url);
+        }
+    }
     </script>
 
 </body>
