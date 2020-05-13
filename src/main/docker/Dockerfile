@@ -6,4 +6,4 @@
 FROM openjdk:8-jdk-alpine
 VOLUME /tmp
 ADD webstack-jdr-nav-1.0.jar jdr.jar
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/jdr.jar"]
