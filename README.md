@@ -2,28 +2,32 @@
 
 一个开源的网址导航网站项目，具备完整的前后台，您可以拿来制作自己的网址导航。
 
-![首页](screen/1.png)
-
+![首页(https://g-photo.oss-cn-shanghai.aliyuncs.com/20200522172001.png)
 
 ## 说明
 后台代码基于：[**WebStack-Guns**](https://github.com/jsnjfz/WebStack-Guns)
 
 修改点：
-图片存储修改为阿里云OSS，在application.yml中配置即可
+
+- [x] 图片存储修改为阿里云OSS，在application.yml中配置即可
+- [x] 修改支持Docker部署
+- [x] 修改支持打开网站图片类型，例如：点击打开某一个网站，弹窗展示对应图片，Http://*******.jpg
+
+![](https://g-photo.oss-cn-shanghai.aliyuncs.com/20200522172314.png)
 
 
 ## 运行
 
-克隆代码：
+#### 克隆代码：
 
 ```shell
 git clone https://github.com/Grt1228/WebStack-JDR-Nav.git
 ```
 
-导入IDE，建议用IDEA打开项目目录，待maven下载完jar包
+#### 导入IDE，建议用IDEA打开项目目录，待maven下载完jar包
 
 
-编辑配置：
+#### 编辑配置：
 
 ```
 application.yml
@@ -47,19 +51,21 @@ password
 ...
 ```
 
-新建数据库(utf8mb4)，导入数据：
+#### 新建数据库(utf8mb4)，导入数据：
 
 ```shell
 sql\nav.sql
 ```
 
-maven打包或者IDE启动服务：
+## maven打包或者IDE启动服务：
 
 ```shell
 $ java -jar WebStack-JDR-Nav-1.0.jar
 ```
 
 启动完成：http://127.0.0.1:8000
+
+## Docker部署
 
 
 
@@ -73,13 +79,9 @@ $ java -jar WebStack-JDR-Nav-1.0.jar
 
 在线demo: http://117.78.18.7:8000/
 
-![主页](screen/2.png)
+![首页(https://g-photo.oss-cn-shanghai.aliyuncs.com/20200522172001.png)
 
-![分类](screen/3.png)
-
-![网站](screen/4.png)
-
-
+![](https://g-photo.oss-cn-shanghai.aliyuncs.com/20200522172314.png)
 
 ## 感谢
 
@@ -88,9 +90,6 @@ $ java -jar WebStack-JDR-Nav-1.0.jar
 后台框架：[**Guns**](https://github.com/stylefeng/Guns)
 
 后台代码基于：[**WebStack-Guns**](https://github.com/jsnjfz/WebStack-Guns)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Springboot**
-
 
 ## License
 
