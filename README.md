@@ -2,7 +2,7 @@
 
 一个开源的网址导航网站项目，具备完整的前后台，您可以拿来制作自己的网址导航。
 
-![首页("https://g-photo.oss-cn-shanghai.aliyuncs.com/20200522172001.png")
+![首页](https://g-photo.oss-cn-shanghai.aliyuncs.com/20200522172001.png)
 
 ## 说明
 后台代码基于：[**WebStack-Guns**](https://github.com/jsnjfz/WebStack-Guns)
@@ -79,9 +79,9 @@ $ java -jar WebStack-JDR-Nav-1.0.jar
 
 线上预览: https://jrd.jgsu.wiki
 
-![首页("https://g-photo.oss-cn-shanghai.aliyuncs.com/20200522172001.png")
+![首页](https://g-photo.oss-cn-shanghai.aliyuncs.com/20200522172001.png)
 
-![图片展示]("https://g-photo.oss-cn-shanghai.aliyuncs.com/20200522172314.png")
+![图片展示](https://g-photo.oss-cn-shanghai.aliyuncs.com/20200522172314.png)
 
 ## 感谢
 
